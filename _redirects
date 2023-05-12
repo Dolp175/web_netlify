@@ -1,7 +1,3 @@
 https://fanciful-blini-52f07f.netlify.app/ https://tucerrajerolocal.com/:splat 301!
 https://fanciful-blini-52f07f.netlify.app/* https://tucerrajerolocal.com/:splat 301!
-
-/servicios/:slug.html /servicios/:slug 301!
-/servicios/:slug /servicios/:slug.html 200!
-
-
+/servicios/*.html /servicios/:splat 301!
