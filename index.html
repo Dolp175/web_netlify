@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tu Cerrajero Local en Madrid ofrece servicios profesionales de cerrajería, incluyendo apertura de puertas y cambio de cerraduras.">
-    <meta name="keywords" content="cerrajero Madrid, apertura de Puertas, cambio de Cerraduras, reparación de cerraduras, cerrajero,">
+    <meta name="keywords" content="cerrajero Madrid, apertura de Puertas, cambio de Cerraduras, reparación de cerraduras, cerrajero, cerrajero local">
     <meta name="author" content="Tu Cerrajero Local">
-    <meta name="title" content="Cerrajero en Madrid | Apertura de puerta Madrid"/>
+    <meta name="title" content="Cerrajero en Madrid"/>
     <title>Tu cerrajero local</title>
-    <link rel="canonical" href="https://tucerrajerolocal.com/" />
+    <link rel="canonical" href="https://tucerrajerolocal.com" />
     <link rel="stylesheet" href="css/fontawesome-free-6.4.0-web/css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -20,7 +20,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-4 col-12 text-center text-lg-left mb-3 mb-lg-0">
                     <a href="index.html">
-                        <img src="images/logo.png" alt="Logo" width="200" height="200" />
+                        <picture>
+                            <source srcset="../images/header/logo.avif" type="image/avif">
+                            <img src="../images/header/logo.png" alt="Logo" width="200" height="200">
+                        </picture>
                     </a>
                 </div>
                 <div class="col-lg-8 col-12">
@@ -28,11 +31,14 @@
                         <div class="me-lg-3 d-block" style="color: #5b8ce1;">
                             <i class="fa-solid fa-clock"></i> Todos los días de 7:00 a 24:00
                         </div>
-                        <a href="#contacto" class="me-lg-3 d-block" style="color: #205295;">
+                        <a href="presupuesto/contacto.html" class="me-lg-3 d-block" style="color: #205295;">
                             <i class="fa-solid fa-arrow-up-right-from-square"></i> Presupuesto sin compromiso
                         </a>
                         <a href="https://wa.me/34611754389" target="_blank" class="me-lg-3 d-block">
-                            <img src="images/WhatsApp_contact.png" alt="Contacto por WhatsApp" width="256" height="68" />
+                            <picture>
+                                <source srcset="../images/header/WhatsApp_contact.avif" type="image/avif">
+                                <img src="../images/header/WhatsApp_contact.png" alt="Contacto por WhatsApp" width="256" height="68" />
+                            </picture>
                         </a>
                         <div class="nowrap">
                             <h2 class="mb-0">
@@ -65,8 +71,8 @@
                                         <a class="nav-link" href="#zonas">Zonas</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#footerSection">Contacto</a>
-                                    </li>
+                                        <a class="nav-link" href="presupuesto/contacto.html">Contacto</a>
+                                    </li>                                    
                                     <li class="nav-item">
                                         <a class="nav-link" href="#blog">Blog</a>
                                     </li>
@@ -78,9 +84,14 @@
             </div>
         </div>
     </header>
-    <div class="container-fluid p-0">
-        <img src="images/apertura_cerradura.png" alt="Cerrajero en madrid" class="img-fluid d-block mx-auto">
-    </div> 
+    <picture>
+        <source type="image/avif" media="(min-width: 897px)" srcset="../images/main/apertura_cerradura.avif">
+        <source type="image/avif" media="(min-width: 415px)" srcset="../images/main/apertura_cerradura896.avif">
+        <source type="image/avif" srcset="../images/main/apertura_cerradura414.avif">
+        <source type="image/png" media="(min-width: 897px)" srcset="../images/main/apertura_cerradura.png">
+        <source type="image/png" media="(min-width: 415px)" srcset="../images/main/apertura_cerradura896.png">
+        <img src="../images/main/apertura_cerradura414.png" alt="Cerrajero abriendo cerradura" class="img-fluid d-block mx-auto">
+    </picture>
     <div class="container my-5">
         <div class="row">
             <div class="col-md-12">
@@ -90,21 +101,33 @@
         <div class="row">
             <div class="col-md-4 text-center">
                 <div class="single-service">
-                    <img src="images/trabajador.png" alt="trabajador" width="256" height="256">
+                    <picture>
+                        <source type="image/avif" srcset="images/main/trabajador.avif">
+                        <source type="image/png" srcset="images/main/trabajador.png">
+                        <img src="images/main/trabajador.png" alt="trabajador" width="256" height="256">
+                    </picture>
                     <h2>EXPERIENCIA</h2>
                     <p>Cerrajero en Madrid con más de 20 años de experiencia en la apertura de puertas y cambio de cerraduras.</p>
                 </div>
             </div>
             <div class="col-md-4 text-center">
                 <div class="single-service">
-                    <img src="images/monedas.png" alt="monedas" width="256" height="256">
+                    <picture>
+                        <source type="image/avif" srcset="images/main/monedas.avif">
+                        <source type="image/png" srcset="images/main/monedas.png">
+                        <img src="images/main/monedas.png" alt="monedas" width="256" height="256">
+                    </picture>
                     <h2>SIN INTERMEDIARIOS</h2>
                     <p>Contacta directamente con tu cerrajero en Madrid, sin intermediarios, podemos ofrecer el mejor precio para apertura de puerta y cambio de cerradura en Madrid.</p>
                 </div>
             </div>
             <div class="col-md-4 text-center">
                 <div class="single-service">
-                    <img src="images/candado.png" alt="candado" width="256" height="256">
+                    <picture>
+                        <source type="image/avif" srcset="images/main/candado.avif">
+                        <source type="image/png" srcset="images/main/candado.png">
+                        <img src="images/main/candado.png" alt="candado" width="256" height="256">
+                    </picture>
                     <h2>APERTURAS URGENTES</h2>
                     <p>Nos desplazamos de forma inmediata para proporcionarte cerrajero de urgencia al mejor precio en Madrid.</p>
                 </div>
@@ -136,7 +159,11 @@
                 <p>En "Tu Cerrajero Local", estamos comprometidos con la satisfacción del cliente y el servicio de alta calidad. Con nosotros, puedes estar seguro de que tus necesidades de cerrajería están en las manos más capaces. Cubrimos todos los barrios de Madrid y los municipios de toda la Comunidad, desde Alcalá de Henares hasta Móstoles y más allá. Siempre estamos listos para ayudarte, sin importar dónde te encuentres.</p>
             </div>
             <div class="col-md-6">
-                <img src="images/reparando_cerradura.png" alt="Cambio de Cerraduras" class="img-fluid">
+                <picture>
+                    <source type="image/avif" srcset="images/main/reparando_cerradura.avif">
+                    <source type="image/png" srcset="images/main/reparando_cerradura.png">
+                    <img src="images/main/reparando_cerradura.png" alt="Cambio de Cerraduras" class="img-fluid">
+                </picture>
             </div>
         </div>
     </div>
@@ -181,8 +208,6 @@
         </div>
     </footer>
     
-    
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>

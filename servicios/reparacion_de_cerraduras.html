@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tu Cerrajero Local en Madrid ofrece servicios profesionales de cerrajería, incluyendo apertura de puertas y cambio de cerraduras.">
+    <meta name="description" content="Reparación de cerraduras en Madrid, servicio ofrecido por Tu Cerrajero Local">
     <meta name="keywords" content="cerrajero Madrid, apertura de Puertas, cambio de Cerraduras, reparación de cerraduras, cerrajero,">
     <meta name="author" content="Tu Cerrajero Local">
     <meta name="title" content="Cerrajero en Madrid | Reparacion de cerradura en Madrid"/>
     <title>Reparacion de cerradura en Madrid</title>
-    <link rel="canonical" href="https://tucerrajerolocal.com/reparacion_de_cerraduras.html" />
+    <link rel="canonical" href="https://tucerrajerolocal.com/reparacion_de_cerraduras" />
     <link rel="stylesheet" href="../css/fontawesome-free-6.4.0-web/css/all.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
@@ -20,7 +20,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-4 col-12 text-center text-lg-left mb-3 mb-lg-0">
                     <a href="../index.html">
-                        <img src="../images/logo.png" alt="Logo" width="200" height="200" />
+                        <picture>
+                            <source srcset="../images/header/logo.avif" type="image/avif">
+                            <img src="../images/header/logo.png" alt="Logo" width="200" height="200">
+                        </picture>
                     </a>
                 </div>
                 <div class="col-lg-8 col-12">
@@ -28,11 +31,14 @@
                         <div class="me-lg-3 d-block" style="color: #5b8ce1;">
                             <i class="fa-solid fa-clock"></i> Todos los días de 7:00 a 24:00
                         </div>
-                        <a href="#contacto" class="me-lg-3 d-block" style="color: #205295;">
+                        <a href="../presupuesto/contacto.html" class="me-lg-3 d-block" style="color: #205295;">
                             <i class="fa-solid fa-arrow-up-right-from-square"></i> Presupuesto sin compromiso
                         </a>
                         <a href="https://wa.me/34611754389" target="_blank" class="me-lg-3 d-block">
-                            <img src="../images/WhatsApp_contact.png" alt="Contacto por WhatsApp" width="256" height="68" />
+                            <picture>
+                                <source srcset="../images/header/WhatsApp_contact.avif" type="image/avif">
+                                <img src="../images/header/WhatsApp_contact.png" alt="Contacto por WhatsApp" width="256" height="68" />
+                            </picture>
                         </a>
                         <div class="nowrap">
                             <h2 class="mb-0">
@@ -48,8 +54,15 @@
         </div>
     </header>
     <div class="container-fluid p-0">
-        <img src="../images/cerrajera_reparando.png" alt="Cerrajero en madrid" class="img-fluid d-block mx-auto">
-    </div> 
+        <picture>
+            <source type="image/avif" media="(min-width: 897px)" srcset="../images/servicios/reparacion/cerrajera_reparando.avif">
+            <source type="image/avif" media="(min-width: 415px)" srcset="../images/servicios/reparacion/cerrajera_reparando896.avif">
+            <source type="image/avif" srcset="../images/servicios/reparacion/cerrajera_reparando414.avif">
+            <source type="image/png" media="(min-width: 897px)" srcset="../images/servicios/reparacion/cerrajera_reparando.png">
+            <source type="image/png" media="(min-width: 415px)" srcset="../images/servicios/reparacion/cerrajera_reparando896.png">
+            <img src="../images/servicios/apertura/reparacion/cerrajera_reparando414.png" alt="Cerrajera reparando cerradura" class="img-fluid d-block mx-auto">
+        </picture>
+    </div>
 
     <div class="container my-5">
         <div class="row">
@@ -70,7 +83,11 @@
                 <p>Existen varias situaciones en las que puede ser necesario reparar una cerradura. Por ejemplo, si la llave no gira correctamente, si el cerrojo no se mueve o si se ha forzado la cerradura durante un intento de robo. También, el desgaste natural por el uso constante puede provocar problemas en el mecanismo de bloqueo. En cualquier caso, es importante actuar rápidamente para garantizar la seguridad de tu propiedad.</p>
             </div>
             <div class="col-md-6">
-                <img src="../images/reparacion_cerradura.png" alt="Reparación de cerradura en Madrid" class="img-fluid">
+                <picture>
+                    <source type="image/avif" srcset="../images/servicios/reparacion/reparacion_cerradura.avif">
+                    <source type="image/png" srcset="../images/servicios/reparacion/reparacion_cerradura.png">
+                    <img src="../images/servicios/reparacion/reparacion_cerradura.png" alt="Reparación de cerradura" class="img-fluid" style="max-width:512px; max-height:512px;">
+                </picture>
             </div>
         </div>
         <div class="row my-4">
@@ -89,8 +106,6 @@
             $("#footer").load("../footer.html"); 
         });
     </script>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
