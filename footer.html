@@ -1,7 +1,7 @@
 <footer class="footer" id="footerSection">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-lg-1 order-2">
                 <h3 class="footer-title">Contacto</h3>
                 <div class="contact-item">
                     <i class="fa-solid fa-envelope"></i>
@@ -25,11 +25,11 @@
                     <a href="../legal/politica_cookies" target="_blank">Política de cookies</a>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 order-lg-2 order-1">
                 <h3 class="text-center footer-title">Envía un mensaje</h3>
                 <form name="contact" method="POST" data-netlify="true" class="contact-form">
                     <p>
-                        <input type="text" name="name" placeholder="Nombre" />  
+                        <input type="text" name="name" placeholder="Nombre" />
                     </p>
                     <p>
                         <input type="email" name="email" placeholder="Correo electrónico" />
@@ -42,7 +42,23 @@
                     </p>
                 </form>
             </div>
-            
         </div>
     </div>
 </footer>
+
+<div class="fixed-bottom mb-2">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center bg-light p-3 rounded" id="cookieBanner">
+            <div class="me-3">
+                Usamos cookies para mejorar tu experiencia. Al continuar navegando, aceptas nuestra 
+                <a href="legal/politica_cookies">Política de cookies</a>.
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary btn-sm" onclick="acceptCookies()">Aceptar</button>
+                <button type="button" class="btn btn-secondary btn-sm" onclick="declineCookies()">Rechazar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/cookies.js"></script>
