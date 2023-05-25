@@ -78,6 +78,19 @@ a:hover {
     color: #2C74B3;
 }
 
+/* etiqueta h1*/
+#site-title {
+    color: #205295;
+    font-size: 3em;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #site-title {
+        font-size: 1.5em;
+    }
+}
+
 /* form netlify */
 
 .text-center {
