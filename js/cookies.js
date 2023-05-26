@@ -1,18 +1,20 @@
-
 document.addEventListener('DOMContentLoaded', (event) => {
     if (!getCookie("cookiesAccepted")) {
-        document.getElementById('cookieBanner').style.display = "flex";
+        document.getElementById('cookieBanner').style.cssText = "display: flex !important;";
     }
+    console.log(document.getElementById('cookieBanner').style.display);
 });
 
 function acceptCookies() {
     setCookie("cookiesAccepted", "yes", 365);
-    document.getElementById('cookieBanner').style.display = "none";
+    document.getElementById('cookieBanner').style.cssText = "display: none !important;";
+    console.log(document.getElementById('cookieBanner').style.display);
 }
 
 function declineCookies() {
     setCookie("cookiesAccepted", "no", 365);
-    document.getElementById('cookieBanner').style.display = "none";
+    document.getElementById('cookieBanner').style.cssText = "display: none !important;";
+    console.log(document.getElementById('cookieBanner').style.display);
 }
 
 function setCookie(name, value, days) {
