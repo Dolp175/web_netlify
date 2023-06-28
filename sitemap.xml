@@ -125,5 +125,20 @@
     <loc>https://tucerrajerolocal.com/zonas/villaverde</loc>
     <changefreq>monthly</changefreq>
 </url>
-
+<url>
+    <loc>https://tucerrajerolocal.com/blog/indice</loc>
+    <changefreq>weekly</changefreq>
+</url>
+<url>
+    <loc>https://tucerrajerolocal.com/blog/mejores-marcas-cerraduras</loc>
+    <changefreq>yearly</changefreq>
+</url>
+<url>
+    <loc>https://tucerrajerolocal.com/blog/mejores-bombines</loc>
+    <changefreq>yearly</changefreq>
+</url>
+<url>
+    <loc>https://tucerrajerolocal.com/blog/porque-cerrajero-madrid-es-caro</loc>
+    <changefreq>yearly</changefreq>
+</url>
 </urlset>

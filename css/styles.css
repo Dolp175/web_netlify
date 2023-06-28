@@ -183,3 +183,31 @@ a:hover {
     display: none !important;
 }
 
+/* blog index */
+.blog-post {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #f9f9f9;
+}
+
+.blog-post h2 {
+    margin-bottom: 15px;
+}
+
+.blog-post a {
+    color: #205295;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    color: #5b8ce1;
+}
+
+.blog-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+}
