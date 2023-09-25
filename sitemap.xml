@@ -265,4 +265,9 @@
         <loc>https://tucerrajerolocal.com/municipios/villaviciosa-de-odon</loc>
         <changefreq>weekly</changefreq>
     </url>
+
+    <url>
+        <loc>https://tucerrajerolocal.com/blog/mejores-cerrojos</loc>
+        <changefreq>yearly</changefreq>
+    </url>
 </urlset>
