@@ -244,6 +244,7 @@ a:hover {
     color: #144272;
 }
 
-.bg-gradient {
+.hero-gradient {
     background: linear-gradient(to right, #205295, #2C74B3);
 }
+
