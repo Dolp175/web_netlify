@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" as="image" href="images/header/logo.avif" type="image/avif">
     <meta name="description"
         content="Tu Cerrajero Local en Madrid ofrece servicios profesionales de cerrajería, incluyendo apertura de puertas y cambio de cerraduras.">
     <meta name="keywords"
@@ -85,8 +86,9 @@
                 <div class="col-lg-4 col-12 text-center text-lg-left mb-3 mb-lg-0">
                     <a href="index">
                         <picture>
-                            <source srcset="../images/header/logo.avif" type="image/avif">
-                            <img src="../images/header/logo.png" alt="Logo" width="200" height="200">
+                            <source srcset="images/header/logo.avif" type="image/avif">
+                            <img src="images/header/logo.png" alt="Tu Cerrajero Local" width="200" height="200"
+                                fetchpriority="high" loading="eager" decoding="async">
                         </picture>
                     </a>
                 </div>
