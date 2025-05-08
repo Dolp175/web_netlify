@@ -215,6 +215,7 @@ a:hover {
 .hero {
     background: linear-gradient(to right, #205295, #2C74B3);
     padding: 60px 0;
+    min-height: 50vh;
 }
 
 .hero h1 {
