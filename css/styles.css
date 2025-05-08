@@ -216,6 +216,11 @@ a:hover {
     background: linear-gradient(to right, #205295, #2C74B3);
     padding: 60px 0;
     min-height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .hero h1 {
@@ -227,16 +232,13 @@ a:hover {
 }
 
 .hero .btn {
-    font-weight: bold;
-}
-
-.hero .btn {
-    background-color: #ffffff;
+    background-color: #ffffff;        /* botón visible sobre fondo azul */
     color: #205295;
     border: none;
     font-weight: bold;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
 .hero .btn:hover {
     background-color: #f1f1f1;
     color: #144272;
